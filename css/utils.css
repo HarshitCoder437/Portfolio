@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap");
+/* Utilitiy Class */
+
+.btn {
+    background-color: transparent;
+    color: rgb(98, 96, 96);
+    border: none;
+    font-size: 1.1rem;
+    margin: 1.6rem 0.4rem;
+    padding: 0rem 0.3rem;
+    cursor: pointer;
+    font-family: "Baloo Tammudu 2", cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+u {
+    text-underline-offset: .3rem;
+}
+
+#footer {
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 15vh;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+a#back-to-top-nav img {
+    margin-top: 2rem;
+    filter: invert(100%);
+    transition: all .1s;
+}
+
+a#back-to-top-nav img:active {
+    transform: scale(.8);
+}
+
+.heading-primary {
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: .5rem;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+}
+
+.center {
+    text-align: center;
+}
